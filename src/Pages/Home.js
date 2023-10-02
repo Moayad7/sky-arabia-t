@@ -6,11 +6,10 @@ import mbs1 from "../Assets/images/prince.png";
 import ContactForm from "../Components/ContactForm";
 import Footer from "../Components/Footer";
 
-
 const Home = () => {
   return (
     <div className="">
-      <div className="background bg-slate-900">
+      <div className="w-100 h-full flex flex-col justify-center items-center bg-slate">
         {/* <div className="w-full h-full opacity-75 bg-slate-700 "></div> */}
         <div className="container px-16 mx-auto w-100 h-full flex flex-col justify-center items-center text-start ">
           <h1 className="text-blue-700 text-5xl">Sky Al-arabia Company</h1>
@@ -111,102 +110,97 @@ const Home = () => {
             <div className="bg-vision h-full w-full relative ">
               <div className="w-full h-full absolute bg-dark1 bg-opacity opacity-50"></div>
               <div className=" h-full w-full bg-3 flex justify-center items-center  relative">
-              <button className="text-slate-50 p-2 rounded border border-slate-50 hover:bg-slate-800 absolute z-5 btn-2">
-                Our Projects
-              </button>
+                <button className="text-slate-50 p-2 rounded border border-slate-50 hover:bg-slate-800 absolute z-5 btn-2">
+                  Our Projects
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-
-
-
       {/* services */}
 
       <div className="flex justify-center bg-slate-100 py-5">
-      <div className="container ">
-        <div className="">
-          <h1 className="my-4 text-4xl">Services</h1>
-        </div>
-        <div className="p-4 text-start grid xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-x-5 ">
-          <div className="cards h-80 my-4 shadow  p-10 bg-blue-50 text-slate-800 hover:bg-blue-700 hover:text-slate-50 flex flex-col items-between justify-between">
-            <div className="card-title">
-              <h3 className="text-xl lg:text-4xl">General Contracting</h3>
-            </div>
-            <p className="text-sm lg:text-xl">
-              Civil Contractors is dedicated to producing quality civil
-              construction works for the residential commercial and
-              infrastructure sectors, whereas maintain the highest level of
-              integrity at all levels of project.
-            </p>
-            <div className="card-btn cursor-pointer">
-              <button className="border border-slate-700 rounded p-2">
-                Read more..
-              </button>
-            </div>
+        <div className="container ">
+          <div className="">
+            <h1 className="my-4 text-4xl">Services</h1>
           </div>
-          {/* <style>
+          <div className="p-4 text-start grid xs:grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-x-5 ">
+            <div className="cards h-80 my-4 shadow  p-10 bg-blue-50 text-slate-800 hover:bg-blue-700 hover:text-slate-50 flex flex-col items-between justify-between">
+              <div className="card-title">
+                <h3 className="text-xl lg:text-4xl">General Contracting</h3>
+              </div>
+              <p className="text-sm lg:text-xl">
+                Civil Contractors is dedicated to producing quality civil
+                construction works for the residential commercial and
+                infrastructure sectors, whereas maintain the highest level of
+                integrity at all levels of project.
+              </p>
+              <div className="card-btn cursor-pointer">
+                <button className="border border-slate-700 rounded p-2">
+                  Read more..
+                </button>
+              </div>
+            </div>
+            {/* <style>
             .cards:hover{
 
             }
           </style> */}
-          <div className="cards h-80 w-full my-4 shadow flex flex-col justify-between p-10 bg-slate-50 text-blue-700 hover:bg-slate-800 hover:text-blue-50 ">
-            <div className="card-title">
-              <h3 className="text-xl lg:text-4xl">Steel Fabrication</h3>
+            <div className="cards h-80 w-full my-4 shadow flex flex-col justify-between p-10 bg-slate-50 text-blue-700 hover:bg-slate-800 hover:text-blue-50 ">
+              <div className="card-title">
+                <h3 className="text-xl lg:text-4xl">Steel Fabrication</h3>
+              </div>
+              <p className="text-sm lg:text-xl">
+                Sky Alarabia owns a steel fabrication facility in Jubail light
+                industrial area with all the required machines and allotted area
+                for sandblasting and painting to fulfill and cater clients under
+                one roof.
+              </p>
+              <div className="card-btn cursor-pointer">
+                <button className="border border-slate-700 rounded p-2">
+                  Read more..
+                </button>
+              </div>
             </div>
-            <p className="text-sm lg:text-xl">
-              Sky Alarabia owns a steel fabrication facility in Jubail light
-              industrial area with all the required machines and allotted area
-              for sandblasting and painting to fulfill and cater clients under
-              one roof.
-            </p>
-            <div className="card-btn cursor-pointer">
-              <button className="border border-slate-700 rounded p-2">
-                Read more..
-              </button>
+            <div className="cards h-80 w-full my-4 shadow flex flex-col justify-between p-10 bg-slate-50 text-blue-700 hover:bg-slate-800 hover:text-blue-50 ">
+              <div className="card-title">
+                <h3 className="text-xl lg:text-4xl">Transportation</h3>
+              </div>
+              <p className="text-sm lg:text-xl">
+                “Sky Alarabia Contracting Company”– transportation is 100% Saudi
+                owned company founded in 1997 with only four trucks serving the
+                local market.
+              </p>
+              <div className="card-btn cursor-pointer">
+                <button className="border border-slate-700 rounded p-2">
+                  Read more..
+                </button>
+              </div>
+            </div>
+            <div className="cards h-80 w-full my-4 p-10 shadow bg-blue-50 text-slate-800 hover:bg-blue-700 hover:text-slate-50 flex flex-col items-between justify-between">
+              <div className="card-title">
+                <h3 className="text-xl lg:text-4xl">
+                  Mechanical and Electrical Services
+                </h3>
+              </div>
+              <p className="text-sm lg:text-xl">
+                “Sky Alarabia Contracting Company” gives full-service of
+                mechanical and electrical to commercial and industrial
+                customers. We have established a quality-driven reputation of
+                providing unparalleled design.
+              </p>
+              <div className="card-btn cursor-pointer">
+                <button className="border border-slate-700 rounded p-2">
+                  Read more..
+                </button>
+              </div>
             </div>
           </div>
-          <div className="cards h-80 w-full my-4 shadow flex flex-col justify-between p-10 bg-slate-50 text-blue-700 hover:bg-slate-800 hover:text-blue-50 ">
-            <div className="card-title">
-              <h3 className="text-xl lg:text-4xl">Transportation</h3>
-            </div>
-            <p className="text-sm lg:text-xl">
-              “Sky Alarabia Contracting Company”– transportation is 100% Saudi
-              owned company founded in 1997 with only four trucks serving the
-              local market.
-            </p>
-            <div className="card-btn cursor-pointer">
-              <button className="border border-slate-700 rounded p-2">
-                Read more..
-              </button>
-            </div>
-          </div>
-          <div className="cards h-80 w-full my-4 p-10 shadow bg-blue-50 text-slate-800 hover:bg-blue-700 hover:text-slate-50 flex flex-col items-between justify-between">
-            <div className="card-title">
-              <h3 className="text-xl lg:text-4xl">
-                Mechanical and Electrical Services
-              </h3>
-            </div>
-            <p className="text-sm lg:text-xl">
-              “Sky Alarabia Contracting Company” gives full-service of
-              mechanical and electrical to commercial and industrial customers.
-              We have established a quality-driven reputation of providing
-              unparalleled design.
-            </p>
-            <div className="card-btn cursor-pointer">
-              <button className="border border-slate-700 rounded p-2">
-                Read more..
-              </button>
-            </div>
-          </div>
-        </div>
         </div>
       </div>
 
-
-      
       {/* projects */}
       <div className="py-5 container-fluid">
         <div className="py-5">
@@ -215,32 +209,31 @@ const Home = () => {
         <div className=" p-4 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4">
           <div className="proj-card w-full ">
             <div className="proj-pic1 flex relative items-end">
-
-            <h3 className=" proj-title text-blue-700 absolute  text-center w-full lg:text-3xl bg-slate-50 mb-0 py-2 ">
-              Cleaning and Demolition of 3 Abandoned Tanks
-            </h3>
-
+              <h3 className=" proj-title text-blue-700 absolute  text-center w-full lg:text-3xl bg-slate-50 mb-0 py-2 ">
+                Cleaning and Demolition of 3 Abandoned Tanks
+              </h3>
             </div>
-            
-            
           </div>
           <div className="proj-card">
-            <div className="proj-pic2  flex  items-end relative"><h3 className="proj-title text-blue-700 absolute text-center w-full text-xl lg:text-3xl bg-slate-50 mb-0 px-3 py-2 ">
-              Najran University
-            </h3></div>
-            
+            <div className="proj-pic2  flex  items-end relative">
+              <h3 className="proj-title text-blue-700 absolute text-center w-full text-xl lg:text-3xl bg-slate-50 mb-0 px-3 py-2 ">
+                Najran University
+              </h3>
+            </div>
           </div>
           <div className="proj-card ">
-            <div className="proj-pic3 flex  items-end relative"><h3 className="proj-title text-blue-700 absolute text-center w-full text-xl lg:text-3xl bg-slate-50 mb-0 px-3 py-2 ">
-              SFC- AFK MONORAIL HOISTS REPAIRING
-            </h3></div>
-            
+            <div className="proj-pic3 flex  items-end relative">
+              <h3 className="proj-title text-blue-700 absolute text-center w-full text-xl lg:text-3xl bg-slate-50 mb-0 px-3 py-2 ">
+                SFC- AFK MONORAIL HOISTS REPAIRING
+              </h3>
+            </div>
           </div>
           <div className="proj-card ">
-            <div className="proj-pic4 flex  items-end relative"><h3 className="proj-title text-blue-700 absolute text-center w-full text-xl lg:text-3xl bg-slate-50 mb-0 px-3 py-2 ">
-              Ministry of Interior Police
-            </h3></div>
-            
+            <div className="proj-pic4 flex  items-end relative">
+              <h3 className="proj-title text-blue-700 absolute text-center w-full text-xl lg:text-3xl bg-slate-50 mb-0 px-3 py-2 ">
+                Ministry of Interior Police
+              </h3>
+            </div>
           </div>
         </div>
         <div className="py-5">
@@ -248,11 +241,9 @@ const Home = () => {
         </div>
       </div>
 
-
-
       {/* *************** */}
       <div className=" bg-blue-700 sm:text-start md:text-start lg:text-start relative text-slate-50 p-10">
-      {/* <div className="bg-blue-700 absolute w-full h-full"></div> */}
+        {/* <div className="bg-blue-700 absolute w-full h-full"></div> */}
         <div className="bg-blue">
           <div className=" grid lg:grid-cols-3 ">
             <div className="col-span-2 container  grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 py-5 ">
@@ -277,18 +268,11 @@ const Home = () => {
         </div>
       </div>
 
-
-
       <div className="py-5">
         <ContactForm />
       </div>
 
-      <Footer/>
-
-
-
-
-
+      <Footer />
     </div>
   );
 };
