@@ -238,3 +238,7 @@
 .zindex{
   z-index:99;
 }
+
+.bg-slate{
+  background-color: rgba(0, 0, 0, 0.607);
+}
