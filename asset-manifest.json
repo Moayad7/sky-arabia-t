@@ -1,26 +1,33 @@
 {
   "files": {
-    "main.css": "/sky-arabia-t/static/css/main.a2d457a2.css",
-    "main.js": "/sky-arabia-t/static/js/main.50dc0c19.js",
+    "main.css": "/sky-arabia-t/static/css/main.1b568b94.css",
+    "main.js": "/sky-arabia-t/static/js/main.d3329b02.js",
     "static/js/787.56cbdb2e.chunk.js": "/sky-arabia-t/static/js/787.56cbdb2e.chunk.js",
+    "static/media/about4.jpg": "/sky-arabia-t/static/media/about4.4cba7eaf6c6c110facd0.jpg",
+    "static/media/about6.jpg": "/sky-arabia-t/static/media/about6.f16e6d92989793cab7a8.jpg",
     "static/media/king.png": "/sky-arabia-t/static/media/king.a234140e8e3dad9ee298.png",
+    "static/media/about5.jpg": "/sky-arabia-t/static/media/about5.09d4af570932cd13ea56.jpg",
+    "static/media/Bahij_TheSansArabic-Plain.ttf": "/sky-arabia-t/static/media/Bahij_TheSansArabic-Plain.aefc305703c5725c3567.ttf",
     "static/media/photo4.webp": "/sky-arabia-t/static/media/photo4.8197abc8ba1e381a8c7e.webp",
+    "static/media/about2.jpg": "/sky-arabia-t/static/media/about2.af8e7d569f10a7813f8e.jpg",
     "static/media/king (1).png": "/sky-arabia-t/static/media/king (1).a51c819b9f42aed648a2.png",
     "static/media/photo3.jpg": "/sky-arabia-t/static/media/photo3.9766b1017f95b956df7f.jpg",
     "static/media/mbs.jpg": "/sky-arabia-t/static/media/mbs.ff6abba7b1ca47e02d7a.jpg",
+    "static/media/about1.jpeg": "/sky-arabia-t/static/media/about1.9f86079cbc1a3c05b138.jpeg",
     "static/media/prince.png": "/sky-arabia-t/static/media/prince.72e4fa7280c333cbd3ec.png",
     "static/media/project1.webp": "/sky-arabia-t/static/media/project1.d1843b12133c8a4a74e4.webp",
     "static/media/project3.webp": "/sky-arabia-t/static/media/project3.a71669dc40494010e24e.webp",
     "static/media/project2.webp": "/sky-arabia-t/static/media/project2.96dc76dbf035fdf049ba.webp",
     "static/media/photo2.jpg": "/sky-arabia-t/static/media/photo2.9b825332be1aa566f5c5.jpg",
     "static/media/project4.webp": "/sky-arabia-t/static/media/project4.8e8c1d2863c718ceff5e.webp",
+    "static/media/about3.jpg": "/sky-arabia-t/static/media/about3.26e8992308af1628a554.jpg",
     "index.html": "/sky-arabia-t/index.html",
-    "main.a2d457a2.css.map": "/sky-arabia-t/static/css/main.a2d457a2.css.map",
-    "main.50dc0c19.js.map": "/sky-arabia-t/static/js/main.50dc0c19.js.map",
+    "main.1b568b94.css.map": "/sky-arabia-t/static/css/main.1b568b94.css.map",
+    "main.d3329b02.js.map": "/sky-arabia-t/static/js/main.d3329b02.js.map",
     "787.56cbdb2e.chunk.js.map": "/sky-arabia-t/static/js/787.56cbdb2e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2d457a2.css",
-    "static/js/main.50dc0c19.js"
+    "static/css/main.1b568b94.css",
+    "static/js/main.d3329b02.js"
   ]
 }
