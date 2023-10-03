@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sky-arabia-t/static/css/main.b54623ca.css",
-    "main.js": "/sky-arabia-t/static/js/main.1116c4ef.js",
+    "main.js": "/sky-arabia-t/static/js/main.d40d7084.js",
     "static/js/787.56cbdb2e.chunk.js": "/sky-arabia-t/static/js/787.56cbdb2e.chunk.js",
     "static/media/about4.jpg": "/sky-arabia-t/static/media/about4.4cba7eaf6c6c110facd0.jpg",
     "static/media/about6.jpg": "/sky-arabia-t/static/media/about6.f16e6d92989793cab7a8.jpg",
@@ -32,11 +32,11 @@
     "static/media/about3.jpg": "/sky-arabia-t/static/media/about3.26e8992308af1628a554.jpg",
     "index.html": "/sky-arabia-t/index.html",
     "main.b54623ca.css.map": "/sky-arabia-t/static/css/main.b54623ca.css.map",
-    "main.1116c4ef.js.map": "/sky-arabia-t/static/js/main.1116c4ef.js.map",
+    "main.d40d7084.js.map": "/sky-arabia-t/static/js/main.d40d7084.js.map",
     "787.56cbdb2e.chunk.js.map": "/sky-arabia-t/static/js/787.56cbdb2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b54623ca.css",
-    "static/js/main.1116c4ef.js"
+    "static/js/main.d40d7084.js"
   ]
 }
