@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body{
+  font-family: bahij;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -240,5 +245,80 @@
 }
 
 .bg-slate{
-  background-color: rgba(0, 0, 0, 0.607);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-slate-light{
+  background-color: rgba(255,255,255,0.85);
+}
+
+/* about */
+
+.about-bg{
+  background-image: url(./Assets/images/about1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+}
+
+.vision{
+  background-image: url(Assets/images/about1.jpeg);
+  background-position: 0 50%;
+  background-size: 100%;
+
+}
+
+.vision:hover{
+  background-size: 150%;
+}
+
+
+.mission{
+  background-image: url(Assets/images/about2.jpg);
+  background-position: 0 50%;
+  background-size: 120%;
+
+}
+
+.mission:hover{
+  background-size: 150%;
+}
+
+@media screen and (max-width:991px) {
+  .vision{
+    background-size: cover;
+  }
+  .vision:hover{
+    background-size: cover;
+  }
+  .mission{
+    background-size: cover;
+  }
+  .mission:hover{
+    background-size: cover;
+  }
+}
+
+.brief{
+  background-image: url(./Assets/images/about4.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+
+.chairmen{
+  background-image: url(./Assets/images/about3.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+
+.ourServices{
+  background-image: url(./Assets/images/about5.jpg);
+  background-position: 50%;
+  background-size: cover;
+}
+
+.why{
+  background-image: url(./Assets/images/about6.jpg);
+  background-position: 50%;
+  background-size: cover;
 }
