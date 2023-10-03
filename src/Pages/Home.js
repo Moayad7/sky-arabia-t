@@ -9,14 +9,16 @@ import Footer from "../Components/Footer";
 const Home = () => {
   return (
     <div className="">
-      <div className="w-100 h-full flex flex-col justify-center items-center bg-slate">
-        {/* <div className="w-full h-full opacity-75 bg-slate-700 "></div> */}
-        <div className="container px-16 mx-auto w-100 h-full flex flex-col justify-center items-center text-start ">
-          <h1 className="text-blue-700 text-5xl">Sky Al-arabia Company</h1>
-          <h1 className="text-blue-50 text-2xl">
-            We have a passion for what we do, and for being the best in the
-            industry.
-          </h1>
+      <div className="background bg-slate-900">
+        <div className="w-100 h-full flex flex-col justify-center items-center bg-slate">
+          {/* <div className="w-full h-full opacity-75 bg-slate-700 "></div> */}
+          <div className="container px-16 mx-auto w-100 h-full flex flex-col justify-center items-center text-start ">
+            <h1 className="text-blue-700 text-5xl">Sky Al-arabia Company</h1>
+            <h1 className="text-blue-50 text-2xl">
+              We have a passion for what we do, and for being the best in the
+              industry.
+            </h1>
+          </div>
         </div>
       </div>
 
@@ -272,7 +274,7 @@ const Home = () => {
         <ContactForm />
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
