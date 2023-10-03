@@ -4,7 +4,7 @@ import "../App.css"
 
 const Footer = () => {
   return (
-    <div className="bg-blue-900 py-5">
+    <div className="bg-blue-900 p-5">
     
       <div className="container">
       
