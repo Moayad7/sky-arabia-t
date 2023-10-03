@@ -4,21 +4,7 @@ import logo2 from "../../Assets/sky logo-03.png";
 import logo from "../../Assets/sky logo-02.png";
 import "../../App.css"
 
-const Navbar = () => {
-
-
-    const [color,setColor]= useState(false)
-    const changeColor = () =>{
-        if(window.scrollY >= 80){
-            setColor(true)
-        }
-        else{
-            setColor(false)
-        }
-    }
-
-    window.addEventListener('scroll', changeColor)
-
+const Navbar = (props) => {
 
 
 
@@ -33,13 +19,13 @@ const Navbar = () => {
 
   return (
     <div className=" w-full ">
-    <div className={color?'bg-slate-300 duration-300':' duration-300'}>
+    <div className={props.color?'bg-slate-300 duration-300':' duration-300'}>
       <nav className="p-5 text-slate-800 md:flex md:items-center justify-evenly md:justify-evenly">
-        <a href="#" className="float-right">
-        {color ? <img src={logo} alt="" width="140px" /> : <img src={logo2} alt="" width="140px" />}
+        <a href="#" className="ms-20 float-right">
+        {props.color ? <img src={logo} alt="" width="180px" /> : <img src={logo2} alt="" width="180px" />}
         </a>
         <div className="flex justify-between items-center">
-          <span className={color?"navbar-toggler text-3xl cursor-pointer mx-2 md:hidden text-slate-800 ":"navbar-toggler text-3xl cursor-pointer mx-2 md:hidden text-slate-50 "}>
+          <span className={props.color?"navbar-toggler text-3xl cursor-pointer mx-2 md:hidden text-slate-800 ":"navbar-toggler text-3xl cursor-pointer mx-2 md:hidden text-slate-50 "}>
             <ion-icon
               name="menu"
               onClick={Menu}
@@ -58,11 +44,11 @@ const Navbar = () => {
               ></ion-icon>
             </span>
           </div> */}
-          <NavItems url="sky-arabia" name="Home" color={color} />
-          <NavItems url="About" name="About" color={color}/>
-          <NavItems url="Services" name="Services" color={color}/>
-          <NavItems url="Projects" name="Projects" color={color}/>
-          <NavItems url="Contact" name="Contact" color={color}/>
+          <NavItems url="sky-arabia" name="Home" color={props.color} />
+          <NavItems url="About" name="About us" color={props.color}/>
+          <NavItems url="Services" name="Our Services" color={props.color}/>
+          <NavItems url="Projects" name="Our Projects" color={props.color}/>
+          <NavItems url="Contact" name="Contact us" color={props.color}/>
         </ul>
       </nav>
     </div>
